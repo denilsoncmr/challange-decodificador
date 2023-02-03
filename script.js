@@ -3,8 +3,6 @@ var btnDescripto = document.querySelector('#btn-descripto');
 var placehold = document.querySelector('.placehold');
 var btnCopy = document.querySelector('#btn-copy');
 
-var menu = document.querySelector('.logo')
-
 function hideAndShow() {
     placehold.style.display = 'none';
     btnCopy.style.display = 'block';
@@ -65,3 +63,9 @@ function desencriptar(stringDesencriptada) {
 
     return stringDesencriptada;
 }
+
+btnCopy.addEventListener('click', function(e) {
+  let textArea = document.querySelector('.showtext');
+  textArea.select();
+  document.execCommand('copy');
+})
