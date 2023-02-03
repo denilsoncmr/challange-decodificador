@@ -61,6 +61,7 @@ main{
   border: none;
   font-size: 2rem;
   color: #495057;
+  height: 30rem;
 }
 .placehold{
   padding: 2rem 1rem 1rem 1rem;
@@ -104,6 +105,15 @@ main{
   padding-top: 1rem;
   padding-bottom: 1rem;
   align-items: center;
+}
+.btn-cripto:hover{
+  cursor: pointer;
+}
+.btn-descripto:hover{
+  cursor: pointer;
+}
+.btn-copy:hover{
+  cursor: pointer;
 }
 .btn-copy{
   display: none;
@@ -220,6 +230,7 @@ main{
       border: none;
       color: #0A3871;
       font-size: 2rem;
+      height: auto;
     }
     .btn-copy{
       display: none;
